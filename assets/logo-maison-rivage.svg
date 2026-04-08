@@ -1,0 +1,17 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Maison Rivage Logo</title>
+  <desc id="desc">Wordmark logo with a coastal wave emblem for Maison Rivage</desc>
+
+  <rect width="720" height="220" fill="#F6F4EF"/>
+
+  <!-- Emblem -->
+  <g transform="translate(48,44)">
+    <path d="M44 0C19.7 0 0 19.7 0 44C0 68.3 19.7 88 44 88C68.3 88 88 68.3 88 44C88 19.7 68.3 0 44 0Z" fill="#11243A"/>
+    <path d="M12 53C23 41 35 39 47 47C58 55 68 55 78 46" stroke="#D8C8B0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M18 65C28 55 40 53 52 60C62 66 70 66 77 61" stroke="#D8C8B0" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="164" y="103" fill="#11243A" font-size="48" font-family="'Times New Roman', 'Georgia', serif" letter-spacing="1.5">MAISON RIVAGE</text>
+  <text x="166" y="138" fill="#7A7D63" font-size="16" font-family="'Helvetica Neue', 'Arial', sans-serif" letter-spacing="4">FRENCH COASTAL CLOTHING HOUSE</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg width="1000" height="1200" viewBox="0 0 1000 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Marin Linen Overshirt</title>
+  <desc id="desc">Front-view fashion illustration of the Marin Linen Overshirt in ocean navy.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5EF"/>
+      <stop offset="1" stop-color="#ECE5D9"/>
+    </linearGradient>
+    <linearGradient id="fabric" x1="285" y1="210" x2="715" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A3552"/>
+      <stop offset="1" stop-color="#11243A"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="500" y1="230" x2="500" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softShadow" x="120" y="140" width="760" height="980" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.11 0 0 0 0 0.16 0 0 0 0.28 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+
+  <g opacity="0.35">
+    <circle cx="150" cy="220" r="120" fill="#D8C8B0"/>
+    <circle cx="860" cy="320" r="90" fill="#D8C8B0"/>
+    <circle cx="820" cy="980" r="140" fill="#D8C8B0"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <!-- Body -->
+    <path d="M350 260L430 210H570L650 260L730 410L700 1020H300L270 410L350 260Z" fill="url(#fabric)"/>
+
+    <!-- Collar -->
+    <path d="M430 210L500 300L570 210" fill="#18304A"/>
+    <path d="M430 210L500 300L570 210" stroke="#2C4867" stroke-width="5"/>
+    <path d="M500 300V1020" stroke="#405C7C" stroke-width="5" opacity="0.7"/>
+
+    <!-- Left Placket -->
+    <path d="M470 300L500 300V1020H470V300Z" fill="#16324E"/>
+    <!-- Right Placket -->
+    <path d="M500 300H530V1020H500V300Z" fill="#142D46"/>
+
+    <!-- Sleeves -->
+    <path d="M350 260L270 410L220 780L310 820L350 600L385 430L350 260Z" fill="#15324E"/>
+    <path d="M650 260L730 410L780 780L690 820L650 600L615 430L650 260Z" fill="#15324E"/>
+
+    <!-- Cuffs -->
+    <rect x="250" y="795" width="88" height="48" rx="16" fill="#0F2439"/>
+    <rect x="662" y="795" width="88" height="48" rx="16" fill="#0F2439"/>
+
+    <!-- Chest Pockets -->
+    <path d="M390 420H470V520H390V420Z" fill="#14314C"/>
+    <path d="M390 420H470V520H390V420Z" stroke="#456180" stroke-width="4"/>
+    <path d="M390 420L430 460L470 420" stroke="#456180" stroke-width="4"/>
+
+    <path d="M530 420H610V520H530V420Z" fill="#14314C"/>
+    <path d="M530 420H610V520H530V420Z" stroke="#456180" stroke-width="4"/>
+    <path d="M530 420L570 460L610 420" stroke="#456180" stroke-width="4"/>
+
+    <!-- Buttons -->
+    <circle cx="500" cy="370" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="430" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="490" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="550" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="610" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="670" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="730" r="8" fill="#D8C8B0"/>
+    <circle cx="500" cy="790" r="8" fill="#D8C8B0"/>
+
+    <!-- Subtle texture lines -->
+    <path d="M360 360C420 380 470 380 500 370" stroke="#5A7695" stroke-width="2" opacity="0.35"/>
+    <path d="M640 360C580 380 530 380 500 370" stroke="#5A7695" stroke-width="2" opacity="0.35"/>
+    <path d="M330 520C380 540 420 545 455 540" stroke="#5A7695" stroke-width="2" opacity="0.25"/>
+    <path d="M670 520C620 540 580 545 545 540" stroke="#5A7695" stroke-width="2" opacity="0.25"/>
+
+    <!-- Hem -->
+    <path d="M300 1020C380 1060 620 1060 700 1020" stroke="#3D5978" stroke-width="5"/>
+
+    <rect x="300" y="210" width="400" height="810" fill="url(#shadow)" opacity="0.2"/>
+  </g>
+
+  <text x="500" y="1115" text-anchor="middle" fill="#11243A" font-size="44" font-family="'Times New Roman', 'Georgia', serif" letter-spacing="1.5">Marin Linen Overshirt</text>
+  <text x="500" y="1150" text-anchor="middle" fill="#7A7D63" font-size="20" font-family="'Helvetica Neue', 'Arial', sans-serif" letter-spacing="2">Ocean Navy • Linen-Cotton Blend</text>
+</svg>

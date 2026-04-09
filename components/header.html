@@ -1,0 +1,76 @@
+<header class="border-b border-[#D8C8B0] bg-[#F6F4EF] text-[#2A2A2A]" role="banner">
+  <div class="mx-auto flex w-full max-w-7xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <a href="index.html" class="inline-flex items-center gap-3" aria-label="Maison Rivage home">
+        <img
+          src="assets/logo-maison-rivage.svg"
+          alt="Maison Rivage"
+          class="h-10 w-auto"
+        >
+        <div>
+          <p class="text-sm uppercase tracking-[0.18em] text-[#7A7D63] [font-family:'Space_Mono',monospace]">Since 1998</p>
+          <p class="text-3xl leading-none text-[#11243A] [font-family:'Cormorant_Garamond',serif]">Maison Rivage</p>
+        </div>
+      </a>
+
+      <form
+        id="header-search-form"
+        class="w-full md:max-w-xl"
+        role="search"
+        aria-label="Search products"
+        novalidate
+      >
+        <label for="header-search-input" class="mb-1 block text-sm font-medium text-[#11243A] [font-family:'Source_Sans_3',sans-serif]">
+          Search the collection
+        </label>
+        <div class="flex items-stretch gap-2">
+          <input
+            id="header-search-input"
+            name="q"
+            type="search"
+            placeholder="Try: Marin Linen Overshirt"
+            class="w-full rounded-md border border-[#D8C8B0] bg-white px-4 py-2.5 text-base text-[#2A2A2A] outline-none transition focus:border-[#11243A] focus:ring-2 focus:ring-[#11243A]/20 [font-family:'Source_Sans_3',sans-serif]"
+            aria-describedby="header-search-error"
+            autocomplete="off"
+          >
+          <button
+            type="submit"
+            class="rounded-md bg-[#11243A] px-5 py-2.5 text-sm font-semibold text-[#F6F4EF] transition hover:bg-[#0b1a2c] focus:outline-none focus:ring-2 focus:ring-[#11243A]/30"
+          >
+            Search
+          </button>
+        </div>
+        <p
+          id="header-search-error"
+          class="mt-2 hidden text-sm text-[#A63D3D] [font-family:'Source_Sans_3',sans-serif]"
+          aria-live="polite"
+        ></p>
+      </form>
+
+      <nav aria-label="User account menu" class="md:min-w-48">
+        <details class="group relative">
+          <summary class="flex cursor-pointer list-none items-center justify-between rounded-md border border-[#D8C8B0] bg-white px-4 py-2.5 text-sm font-semibold text-[#11243A] transition hover:border-[#11243A] [font-family:'Source_Sans_3',sans-serif]">
+            Account
+            <span class="ml-3 text-xs text-[#7A7D63]">Open</span>
+          </summary>
+          <div class="absolute right-0 z-30 mt-2 w-52 rounded-md border border-[#D8C8B0] bg-white p-2 shadow-lg">
+            <a href="#" class="block rounded px-3 py-2 text-sm text-[#2A2A2A] transition hover:bg-[#F6F4EF] [font-family:'Source_Sans_3',sans-serif]">Sign in</a>
+            <a href="#" class="block rounded px-3 py-2 text-sm text-[#2A2A2A] transition hover:bg-[#F6F4EF] [font-family:'Source_Sans_3',sans-serif]">Orders</a>
+            <a href="#" class="block rounded px-3 py-2 text-sm text-[#2A2A2A] transition hover:bg-[#F6F4EF] [font-family:'Source_Sans_3',sans-serif]">Wishlist</a>
+            <a href="#" class="block rounded px-3 py-2 text-sm text-[#2A2A2A] transition hover:bg-[#F6F4EF] [font-family:'Source_Sans_3',sans-serif]">Account settings</a>
+          </div>
+        </details>
+      </nav>
+    </div>
+
+    <nav aria-label="Primary" class="border-t border-[#D8C8B0] pt-3">
+      <ul class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-[#11243A] [font-family:'Source_Sans_3',sans-serif]">
+        <li><a href="index.html" class="transition hover:text-[#B66245]">Home</a></li>
+        <li><a href="catalog.html" class="transition hover:text-[#B66245]">Catalog</a></li>
+        <li><a href="product.html" class="transition hover:text-[#B66245]">Product</a></li>
+        <li><a href="cart.html" class="transition hover:text-[#B66245]">Cart</a></li>
+        <li><a href="payment.html" class="transition hover:text-[#B66245]">Payment</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

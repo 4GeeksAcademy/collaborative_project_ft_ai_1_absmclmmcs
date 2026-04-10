@@ -9,7 +9,10 @@ El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza
 Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
 
 ```bash
-$ pip3 install flask && python3 server.py
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ python -m pip install -r requirements.txt
+$ python server.py
 ```
 
 - Puedes crear tantos archivos HTML cómo desees.

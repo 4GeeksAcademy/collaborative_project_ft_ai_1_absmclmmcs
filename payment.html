@@ -16,8 +16,8 @@
   <body class="bg-[#F6F4EF] text-[#2A2A2A] [font-family:'Source_Sans_3',sans-serif]">
     <header class="border-b border-[#D8C8B0] bg-[#F6F4EF] text-[#2A2A2A]" role="banner">
       <div class="mx-auto flex w-full max-w-7xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
-        <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <a href="home.html" class="inline-flex items-center gap-3" aria-label="Maison Rivage home">
+        <div class="flex flex-col gap-4 md:flex-row md:flex-wrap md:items-start md:justify-between lg:items-center">
+          <a href="home.html" class="inline-flex shrink-0 items-center gap-3" aria-label="Maison Rivage home">
             <img
               src="assets/logo-maison-rivage.svg"
               alt="Maison Rivage"
@@ -31,7 +31,7 @@
 
           <form
             id="header-search-form"
-            class="w-full md:max-w-xl"
+            class="w-full md:order-3 md:basis-full md:max-w-none lg:order-none lg:basis-auto lg:max-w-xl"
             role="search"
             aria-label="Search products"
             novalidate
@@ -39,19 +39,19 @@
             <label for="header-search-input" class="mb-1 block text-sm font-medium text-[#11243A] [font-family:'Source_Sans_3',sans-serif]">
               Search the collection
             </label>
-            <div class="flex items-stretch gap-2">
+            <div class="flex items-center gap-2">
               <input
                 id="header-search-input"
                 name="q"
                 type="search"
                 placeholder="Try: Marin Linen Overshirt"
-                class="w-full rounded-md border border-[#D8C8B0] bg-white px-4 py-2.5 text-base text-[#2A2A2A] outline-none transition focus:border-[#11243A] focus:ring-2 focus:ring-[#11243A]/20 [font-family:'Source_Sans_3',sans-serif]"
+                class="min-w-0 flex-1 appearance-none rounded-md border border-[#D8C8B0] bg-white px-4 py-2.5 pr-10 text-base text-[#2A2A2A] outline-none transition focus:border-[#11243A] focus:ring-2 focus:ring-[#11243A]/20 [font-family:'Source_Sans_3',sans-serif]"
                 aria-describedby="header-search-error"
                 autocomplete="off"
               >
               <button
                 type="submit"
-                class="rounded-md bg-[#11243A] px-5 py-2.5 text-sm font-semibold text-[#F6F4EF] transition hover:bg-[#0b1a2c] focus:outline-none focus:ring-2 focus:ring-[#11243A]/30"
+                class="shrink-0 rounded-md bg-[#11243A] px-5 py-2.5 text-sm font-semibold text-[#F6F4EF] transition hover:bg-[#0b1a2c] focus:outline-none focus:ring-2 focus:ring-[#11243A]/30"
               >
                 Search
               </button>
@@ -63,7 +63,7 @@
             ></p>
           </form>
 
-          <nav aria-label="User account menu" class="md:min-w-48">
+          <nav aria-label="User account menu" class="md:min-w-48 md:shrink-0">
             <details class="group relative">
               <summary class="flex cursor-pointer list-none items-center justify-between rounded-md border border-[#D8C8B0] bg-white px-4 py-2.5 text-sm font-semibold text-[#11243A] transition hover:border-[#11243A] [font-family:'Source_Sans_3',sans-serif]">
                 Account

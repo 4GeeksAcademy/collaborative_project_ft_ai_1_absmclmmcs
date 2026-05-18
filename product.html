@@ -16,6 +16,49 @@
       window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/speed-insights/script.js"></script>
+    <!-- Schema.org JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "#organization",
+          "name": "Maison Rivage",
+          "description": "Contemporary French clothing house inspired by coastal life between Biarritz and Marseille.",
+          "foundingDate": "1998",
+          "founders": [
+            { "@type": "Person", "name": "Camille Rivage" },
+            { "@type": "Person", "name": "Luc Rivage" }
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "assets/logo-maison-rivage.svg"
+          },
+          "areaServed": { "@type": "Place", "name": "European Union" },
+          "knowsLanguage": ["French", "English", "Spanish"],
+          "location": [
+            { "@type": "Place", "name": "Headquarters", "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressCountry": "FR" } },
+            { "@type": "Place", "name": "Atelier and Quality Lab", "address": { "@type": "PostalAddress", "addressLocality": "Bordeaux", "addressCountry": "FR" } },
+            { "@type": "Place", "name": "Logistics Hub", "address": { "@type": "PostalAddress", "addressLocality": "Lyon", "addressCountry": "FR" } }
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "Marin Linen Overshirt",
+          "description": "The Marin Linen Overshirt is a lightweight, structured layer designed for year-round wear. Crafted from a breathable linen-cotton blend, it features a relaxed fit, corozo-style buttons, two chest pockets, and reinforced stitching at stress points.",
+          "image": "assets/marin-linen-overshirt.svg",
+          "brand": { "@id": "#organization" },
+          "material": "68% linen, 32% organic cotton",
+          "color": ["Ocean Navy", "Chalk White", "Olive Clay"],
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Fit", "value": "Relaxed, true to size" },
+            { "@type": "PropertyValue", "name": "Care", "value": "Machine wash cold, hang dry, warm iron if needed" }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-[#F6F4EF] text-[#2A2A2A] [font-family:'Source_Sans_3',sans-serif]">
     <header class="border-b border-[#D8C8B0] bg-[#F6F4EF] text-[#2A2A2A]" role="banner">
